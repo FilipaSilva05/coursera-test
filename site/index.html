@@ -1,6 +1,33 @@
 <!doctype html>
 
+<html>
 <head>
+
+<style>
+p, h1 {color: blue;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	width:200px;
+	background-color: green;
+	opacity: .50; }
+
+h2 {color: black
+	font-size: 40px
+	width:200px;}
+
+.plantas {color:green;}
+
+#name {color: red;
+	background-color: yellow; }
+
+
+</style>
+
+
+
+
+
 	<meta charset=“utf-8”>
 	<title> ola </title>
 </head>
@@ -15,8 +42,9 @@
 
 <section>
 	Section1
-	<article>Noticias1</article>
-	<article>Noticias2</article>
+	<article class= "plantas"> Noticias1</article>
+	<article class= "plantas"> Noticias2</article>
+	
 </section>
 <section>
 	Section2
@@ -31,10 +59,8 @@
 
 <footer>
 <hr>
-<p style=”text-align center”
-	on click=“alert(‘ola’)”>
 
-<p1> Usar simbolos esquesitos &lt; &gt; &amp; &copy; &nbsp; &quot;   Filipa &nbsp;Martinho &nbsp;Silva  </p1>
+<p> Usar simbolos esquesitos &lt; &gt; &amp; &copy; &nbsp; &quot;   Filipa &nbsp;Martinho &nbsp;Silva  </p1> 
 
 
 
@@ -60,8 +86,11 @@
 </ul>
 
 
-<div> Receita de bolo
-<ol>
+<div id=name> Receita de bolo 
+<span id=name>Receita de bolo</span>
+</div>
+
+<ol 
 	<li>abrir a caixa</li>
 	<li>retirar o conteúdo</li>
 </ol>
